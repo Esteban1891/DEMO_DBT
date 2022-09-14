@@ -1,0 +1,59 @@
+
+
+============================== 2022-09-14 19:04:17.135109 | 64c39a45-9300-44dd-bfdc-905a0f37fdae ==============================
+[0m19:04:17.135127 [info ] [MainThread]: Running with dbt=1.2.1
+[0m19:04:17.135808 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/esteban/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'demo_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:04:17.136038 [debug] [MainThread]: Tracking: tracking
+[0m19:04:17.149434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77e596bf10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77e596be20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77e596be50>]}
+[0m19:04:17.150007 [info ] [MainThread]: Creating dbt configuration folder at /home/esteban/.dbt
+[0m19:04:17.151151 [debug] [MainThread]: Starter project path: /home/esteban/Personal/DEMO_DBT/env/lib/python3.8/site-packages/dbt/include/starter_project
+[0m19:04:57.359485 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77df6e9e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77e596bcd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f77e596b7f0>]}
+[0m19:04:57.359973 [debug] [MainThread]: Flushing usage events
+[0m19:04:57.758949 [info ] [MainThread]: ctrl-c
+
+
+============================== 2022-09-14 19:05:21.259755 | a3ce920f-6114-49b8-92e3-5a9a8a825fb6 ==============================
+[0m19:05:21.259772 [info ] [MainThread]: Running with dbt=1.2.1
+[0m19:05:21.260464 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/esteban/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'src', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:05:21.260700 [debug] [MainThread]: Tracking: tracking
+[0m19:05:21.275176 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27e50>]}
+[0m19:05:21.277702 [info ] [MainThread]: A project called src already exists here.
+[0m19:05:21.278584 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27c10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fca9ee27e50>]}
+[0m19:05:21.279099 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-14 19:05:37.510414 | 5173e12c-0e6a-43f6-9c3d-64e8596ea5dd ==============================
+[0m19:05:37.510429 [info ] [MainThread]: Running with dbt=1.2.1
+[0m19:05:37.511157 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/esteban/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'src', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:05:37.511435 [debug] [MainThread]: Tracking: tracking
+[0m19:05:37.524859 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0bfb8e80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0bfb8d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0bfb8dc0>]}
+[0m19:05:37.526291 [debug] [MainThread]: Starter project path: /home/esteban/Personal/DEMO_DBT/env/lib/python3.8/site-packages/dbt/include/starter_project
+[0m19:05:42.000078 [info ] [MainThread]: Profile src written to /home/esteban/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m19:05:42.000428 [info ] [MainThread]: 
+Your new dbt project "src" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:05:42.000906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0a844a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0a844c40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fde0a8447c0>]}
+[0m19:05:42.001249 [debug] [MainThread]: Flushing usage events
+
+
+============================== 2022-09-14 19:21:27.866954 | 9e09ab08-dd1b-4d49-beeb-492eb07ca044 ==============================
+[0m19:21:27.867000 [info ] [MainThread]: Running with dbt=1.2.1
+[0m19:21:27.867642 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/esteban/.dbt', 'send_anonymous_usage_stats': True, 'event_buffer_size': 100000, 'quiet': False, 'no_print': False, 'project_name': 'src', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m19:21:27.867992 [debug] [MainThread]: Tracking: tracking
+[0m19:21:27.881876 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659ee1f10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659ee1d90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659ee1e80>]}
+[0m19:21:27.883286 [debug] [MainThread]: Starter project path: /home/esteban/Personal/DEMO_DBT/ELT/env/lib/python3.8/site-packages/dbt/include/starter_project
+[0m19:21:37.474205 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659eede50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659eeddf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9659eedaf0>]}
+[0m19:21:37.474578 [debug] [MainThread]: Flushing usage events
